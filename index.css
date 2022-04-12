@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
+@import url('http://fonts.cdnfonts.com/css/akira-expanded');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap');
+*{
+  font-family:'Poppins',sans-serif;
+}
+.prakerinNavbar li a{
+    color: white;
+}
+.navlinks ul li a{
+  color: black;
+}
+.tombol{
+  border-radius: 10px;
+  color:white !important;
+}
+.prakerinNavbar .navbar-brand{
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand .textColor{
+    color: #3490dc;
+}
+.containerText{
+    font-family: 'Patua One', sans-serif;
+    font-size:90px;
+    font-weight: 700;
+}
+.kartu .card-header{
+  height: 40px;
+}
+.atasKartu ul li a{
+  padding-top: 20px;
+}
+.containerLeadText{
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  max-width: 500px;
+}
+.badanKartu{
+    max-width: 200px;
+}
+.mainButton{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.textButton{
+    font-weight: 700;
+    color: black;
+}
+.mainButton:hover{
+  background-color: black;
+  border: 2px solid white;
+}
+.textButton:hover{
+  font-weight: 700;
+  color: white;
+}
+.mainPhoto{
+  width: 1000px;
+  height: 450px;
+}
+.container-fluid{
+  background-color: #3490dc;
+}
+.secondPage{
+  background-color: white;
+}
+.secondPhoto{
+  width: 100%;
+}
+.footerPage{
+  background-color: #3490dc;
+  color: white;
+}
+.navBox .navbar{
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+.footerPage ul li a{
+  color: white;
+  text-decoration: none;
+}
+.footerPage ul li a:hover{
+  color: rgb(230, 228, 228);
+}
+.footerMainText,.footerlist{
+  font-family: 'Poppins';
+  color: black;
+}
+.contact{
+  font-family: 'Poppins';
+}
+.footerlist{
+  font-family: 'Poppins';
+}
+.boxOnline{
+  color: white;
+  padding-left: -10px;
+}
+/* SecondPage */
+.loginBox{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+/* ThirdPage */
+.inputBoxArea input{
+  display: inline-flex;
+  justify-content: center;
+}
+.boxData{
+  width: 400px;
+  border-radius: 10px;
+  margin:15px auto;
+  box-shadow:0px 5px 10px black;
+}
+/* Sub-Lihat-ThirdPage */
+.utamaLihatTableFirst{
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 10px black;
+}
+.inputPilih{
+  max-width: 300px;
+}
+.tableLihatSatu{
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.fotoakun{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.selector{
+  border-radius :5px 5px 5px 5px !important; 
+}
+/*  Footer */
+.dummyBox{
+  background-color:white;
+  color:black;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px black;
+  margin-bottom:10px
+}
+@media (max-width: 992px) {
+  .footerContent{
+    text-align:center
+  }
+}
+@media (max-width: 576px) {
+  .footerContent{
+    text-align:center
+  }
+}
+@media (max-width: 768px) {
+  .footerContent{
+    text-align:center
+  }
+}
